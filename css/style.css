@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-
-/* Some CSS Setup - nothing to do with flexbox */
 html {
   box-sizing: border-box;
 }
@@ -9,10 +8,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-/* div {
-    border: thin solid black;
-} */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -39,7 +34,7 @@ body {
 }
 
 .flex-nav li {
-  flex-grow: 2;
+  flex-grow: 10;
 }
 
 .social {
